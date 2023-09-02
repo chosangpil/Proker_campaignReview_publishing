@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="review.css">
+</head>
+
+<body>
+    <div class="introBody">
+        <div class="intro">
+            <div class="mentorIntro">
+                <h4 class="mentorHeader">Mentor</h4>
+                <span id="mentor">홍길동</span>
+                <span>님에게 리뷰를 남겨주세요</span>
+                <br><br>
+                <div>
+                    좋은 수강평을 남겨주시면 멘토와 이후 배우는 사람들에게 큰 도움이 됩니다!<br>회원님의 수강평을 남겨주세요!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainBody">
+        <div class="reviewPage">
+            <div class="reviewAddPage">
+                <div class="starContentHeader">
+                    <span class="starContentHeaderName">My Review</span>
+                </div>
+                <div class="reviewAddPageContent">
+                    <div class="addReviewContent">
+                        <div class="addStarBox">
+                            <div class="starSelect">
+                                <div class="stars">
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="print">
+                                    <span class="printContent">별점을 선택해주세요</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="addReviewBox">
+
+                            <div class="reviewBox">
+                                <div class="reviewContent">
+                                    <textarea class="reviewText" placeholder="수강평을 작성해주세요."></textarea>
+                                    <div class="reviewButtonSpace2">
+                                        <button class="reviewButton"
+                                            style="@style/Widget.AppCompat.Button.Borderless">리뷰<br>남기기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="reviewButtonBox">
+                                <div class="reviewButtonSpace">
+                                    <button class="reviewButton">리뷰남기기</button>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewAddPageBottom">
+
+                </div>
+            </div>
+        </div>
+        <div class="descriptionPage">
+            <div class="descriptionBox">
+                <h3>
+                    멘토님에 대한 평가를 남겨주세요
+                </h3>
+                <div class="description">
+                    &bull; 좋았던 점을 말해주세요!
+                </div>
+                <div class="descriptionContent">
+                    캠페인을 진행하는동안 만족스러웠던 점, 혹은 멘토님의 전문성이 돋보였던 점, 캠페인의 일정과 진행방식에 대한 생각을 적어주세요.
+                </div>
+                <br>
+                <div class="description">
+                    &bull; 아쉬웠던 점을 말해주세요!
+                </div>
+                <div class="descriptionContent">
+                    어떤점이 아쉬웠는지, 멘토님이 어떻게 그 점을 개선할 수 있을지 적어주세요.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="review.js"></script>
+</body>
+
+</html>
